@@ -1,0 +1,56 @@
+@font-face {
+	font-family: "Droid Sans";
+	src: url("Fonts/DSansMono.ttf");
+}
+
+/* Product Sans and this code below were taken from mortezaom/google-sans-cdn */
+@font-face {
+	font-family: "Google Sans";
+	src: url("Fonts/GSansThin.woff2") format("woff2");
+	font-weight: 100;
+	font-style: normal;
+}
+@font-face {
+	font-family: "Google Sans";
+	src: url("Fonts/GSansLight.woff2") format("woff2");
+	font-weight: 300;
+	font-style: normal;
+}
+@font-face {
+	font-family: "Google Sans";
+	src: url("Fonts/GSansRegular.woff2") format("woff2");
+	font-weight: 400;
+	font-style: normal;
+}
+@font-face {
+	font-family: "Google Sans";
+	src: url("Fonts/GSansMedium.woff2") format("woff2");
+	font-weight: 500;
+	font-style: normal;
+}
+@font-face {
+	font-family: "Google Sans";
+	src: url("Fonts/GSansBold.woff2") format("woff2");
+	font-weight: 700;
+	font-style: normal;
+}
+@font-face {
+	font-family: "Google Sans";
+	src: url("Fonts/GSansBlack.woff2") format("woff2");
+	font-weight: 900;
+	font-style: normal;
+}
+
+/* Fallback fonts ripped directly from Discord using Chrome DevTools */
+:root {
+    --font-display: "Google Sans", 'gg sans', 'Noto Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif, 'Apple Symbols';
+    --font-primary: "Google Sans", 'gg sans', 'Noto Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif, 'Apple Symbols';
+    --font-headline: "Google Sans", 'ABC Ginto Nord', 'Noto Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif, 'Apple Symbols';
+    --font-clan-body: "Google Sans", 'Fraunces', 'gg sans', serif, 'Noto Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif,
+    'Apple Symbols';
+    --font-clan-signature: "Google Sans", 'Corinthia', 'gg sans', 'cursive', 'Noto Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif,
+    'Apple Symbols';
+    --font-code: "Droid Sans", 'gg mono', 'Source Code Pro', 'Consolas', 'Andale Mono WT', 'Andale Mono', 'Lucida Console',
+    'Lucida Sans Typewriter', 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Liberation Mono', 'Nimbus Mono L', 'Monaco',
+    'Courier New', Courier, monospace;
+}
