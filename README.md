@@ -5,4 +5,4 @@ Discord theme to use Google Sans *(actually Product Sans but like google made it
 *currently only written for vencord but shouldn't be that hard to install on better discord*
 
 ### Vencord using Online Link
-Just paste this link into Vencord's Online Themes: `link not here yet :/`
+Just paste this link into Vencord's Online Themes: `https://cdn.jsdelivr.net/gh/RBryanYT/GSansCord/theme.css`
