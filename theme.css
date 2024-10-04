@@ -1,3 +1,10 @@
+/**
+* @name GSansCord
+* @author RBryanYT
+* @description Google Sans font for Discord
+* @version 1.1
+*/
+
 @font-face {
 	font-family: "Droid Sans";
 	src: url("Fonts/DSansMono.ttf");
@@ -54,3 +61,10 @@
     'Lucida Sans Typewriter', 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Liberation Mono', 'Nimbus Mono L', 'Monaco',
     'Courier New', Courier, monospace;
 }
+
+/* Version number below Discord version in Settings */
+.versionHash_c5a741::after {
+	content: "\00000aGSansCord Theme 1.1";
+    white-space: pre;
+}
+/* If you don't want to see it, comment it out */
