@@ -2,7 +2,7 @@
 * @name GSansCord
 * @author RBryanYT
 * @description Google Sans font for Discord
-* @version 1.1
+* @version 1.2
 */
 
 @font-face {
@@ -62,9 +62,16 @@
     'Courier New', Courier, monospace;
 }
 
+.subtext_be40e6:nth-child(1) {
+	font-family: "Google Sans", 'gg sans', 'Noto Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif, 'Apple Symbols' !important;
+}
+span[style="font-family: var(--font-code);"] {
+	font-family: "Google Sans", 'gg sans', 'Noto Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif, 'Apple Symbols' !important;
+}
+
 /* Version number below Discord version in Settings */
 .versionHash_c5a741::after {
-	content: "\00000aGSansCord Theme 1.1";
+	content: "\00000aGSansCord Theme 1.2";
     white-space: pre;
 }
 /* If you don't want to see it, comment it out */
